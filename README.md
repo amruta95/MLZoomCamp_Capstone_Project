@@ -30,6 +30,22 @@ Most cardiovascular diseases can be prevented by addressing behavioural risk fac
 - Lastly, we will build a variety of Classification models and compare the models giving the best prediction on Heart Failures.
 
 
+### Features of this dataset
+- age: Person's age.
+- anaemia: Decrease of red blood cells or hemoglobin (boolean).
+- creatinine_phosphokinase: Level of the CPK enzyme in the blood (mcg/L).
+- diabetes: If the patient has diabetes (boolean).
+- ejection_fraction: Percentage of blood leaving the heart at each contraction (percentage).
+- high_blood_pressure: If the patient has hypertension (boolean).
+- platelets: Platelets in the blood (kiloplatelets/mL).
+- serum_creatinine: Level of serum creatinine in the blood (mg/dL).
+- serum_sodium: Level of serum sodium in the blood (mEq/L).
+- sex: Woman or man (binary).
+- smoking: If the patient smokes or not (boolean).
+- time: Follow-up period (days).
+- DEATH_EVENT: If the patient deceased during the follow-up period (boolean).
+
+
 ## 2. Folders/Files Description
 - ### Capstone_Project_with_output.ipynb
   This file contains the following sections with their respective outputs: <br>
@@ -46,10 +62,27 @@ Most cardiovascular diseases can be prevented by addressing behavioural risk fac
    
 - ### Capstone_Project_without_output.ipynb
   This file contains the following sections without their respective outputs: <br>
-- ### train.py
-- ### predict.py
-- ### docker
-- ### heroku
+      - Libraries <br>
+      - Load Data <br>
+      - Data Pre-processing <br>
+      - EDA and Feature Engineering <br>
+      - Feature engineering <br>
+      - Target feature analysis <br>
+      - Model Section and Training <br>
+      - Hyper parameter Tuning <br>
+      - Final Model <br>
+      - Results and Conclusion <br>
+      
+- ### train.py : 
+  Final model training script.
+- ### predict.py :
+  Model prediction API script for local deployment.
+- ### Dockerfile: 
+  Instructions to build Docker image.
+- ### Heroku : 
+  Instructions to deploy model to cloud.
+- ### requirements.txt : 
+  Package dependencies and management files.
   
 ## 3. Code Summary
 
