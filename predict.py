@@ -133,13 +133,11 @@ def predict():
 
 
  
-    result = {
+result = {
             'subscription_probability': float(y_customer_pred),
             'subscription': bool(subscription),
             'description': description
             }
-
-    return jsonify(result)
-
-    if __name__ == "__main__":
+return jsonify(result)
+   if __name__ == "__main__":
    app.run(debug=True, host='0.0.0.0', port=9292)
