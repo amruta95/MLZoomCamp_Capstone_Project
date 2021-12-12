@@ -1,9 +1,8 @@
 # ML ZoomCamp Capstone Project
 
 Hello guys, this repository contains the work carried out as a part of the Capstone Project for the course Machine Learning ZoomCamp. This course is organized and conducted by Mr. Alexey Grigorev.
-This course is free of charge and can be learnt anytime. 
 
-## Links to this course material:
+#### Links to this course material:
 [DataTalksClub](https://datatalks.club/courses/2021-winter-ml-zoomcamp.html) <br>
 [Machine Learning ZoomCamp Course Material](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp)
 
@@ -23,7 +22,7 @@ Most cardiovascular diseases can be prevented by addressing behavioural risk fac
 
 - The [data](https://www.kaggle.com/andrewmvd/heart-failure-clinical-data) that I have used contains 12 features that can be used to predict mortality by heart failure.
 - This project is a binary classification problem.
-- We will predict the Heart Failures using different models (our target variable being Death_Event).
+- We will predict the deaths due to heart failures using different models (our target variable being Death_Event).
 - Target variable is the variable that is or should be the output. In our study our target variable is Death Event in the contex of determining whether anybody is likely to die due to heart failures based on the input parameters like gender, age and various test results or not.
 - Lastly, we will build a variety of Classification models and compare the models giving the best prediction on Heart Failures.
 
