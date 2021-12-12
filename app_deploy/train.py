@@ -182,7 +182,7 @@ for i in range(len(top_models)):
 
 
 # Save model to disk
-model_output_file = f'xgb_model.bin'
+model_output_file = f'rfc_model.bin'
 
 with open(model_output_file,'wb') as f_out:
     pickle.dump((poly,dv,model),f_out)
