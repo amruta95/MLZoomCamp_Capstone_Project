@@ -10,11 +10,9 @@ This course is free of charge and can be learnt anytime.
 ## Contents
  1. Problem Description
  2. Files Description
- 3. Code Summary
- 4. Virtual Environment and Packages
- 5. Model Deployment
- 6. Deploy model as Web Service
- 7. Cloud Deployment
+ 3. Virtual Environment and Packages
+ 4. Deploy model as Web Service
+ 5. Cloud Deployment
 
 
 
@@ -84,9 +82,8 @@ Most cardiovascular diseases can be prevented by addressing behavioural risk fac
 - ### requirements.txt : 
   Package dependencies and management files.
   
-## 3. Code Summary
 
-## 4. Virtual Environment and Packages
+## 3. Virtual Environment and Packages
 
 To ensure all scripts work fine and the libraries used during development are the ones which you use during your deployment/testing, Python venv has been used to manage virtual environment and package dependencies. Please follow the below steps to setup this up in your environment.
 
@@ -105,9 +102,35 @@ To ensure all scripts work fine and the libraries used during development are th
 6.  Install packages required for this project: <br>
      _pip install -r requirements.txt_
 
-## 5. Model Deployment
+## 4. Deploy model as Web Service
+You can deploy the trained model as a web service running inside a docker container on your local machine.
 
-## 6. Deploy model as Web Service
+NOTE: You should have Docker installed and running on the machine where you want to perform model deployment to docker. Run the below commands to check whether docker service is running and then to see if any docker containers are running. <br>
 
-## 7. Cloud Deployment
+_systemctl status docker_ <br>
+_docker ps -a
+_
+
+Please follow the steps mentioned below: <br>
+
+1. Clone this repo <br>
+    _git clone_ https://github.com/amruta95/MLZoomCamp_Capstone_Project.git
+2. Change to the directory that has the required files: <br>
+     _cd_ MLZoomCamp_Capstone_Project/
+3. Build docker image named heart-failure-prediction <br>
+     _docker build -t "heart-failure-prediction" ._
+4. Check docker image available. Output of below command should show the image with name heart-failure-prediction <br>
+    _docker images_
+    
+5. Create a docker container from the image. The model prediction script as a web service will then be running inside this container. Below command will create and run a docker container named heart-td-pred (--name heart-td-pred) running as a daemon. If you want to map different port on host just change the first number), from image heart-failure-prediction. The container will be deleted if stopped or when you shutdown your machine (--rm) <br>
+   _docker run --rm --name heart-td-pred -d -p 9696:9696 heart-failure-prediction_
+
+6. Check whether docker container running. Below command should show the container in Running state and not Exited <br>
+   _docker ps -a_
+
+
+
+
+
+## 5. Cloud Deployment
 
