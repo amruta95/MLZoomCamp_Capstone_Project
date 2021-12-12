@@ -88,6 +88,23 @@ Most cardiovascular diseases can be prevented by addressing behavioural risk fac
 
 ## 4. Virtual Environment and Packages
 
+To ensure all scripts work fine and the libraries used during development are the ones which you use during your deployment/testing, Python venv has been used to manage virtual environment and package dependencies. Please follow the below steps to setup this up in your environment.
+
+1. Firstly, install pip and venv if not installed: <br>
+     _sudo apt install -y python-pip python-venv_
+2. Create a virtual environment <br>
+     _python -m venv Python3_
+3. Activate the virtual environment <br>
+     _. ./Python3/bin/activate_
+4. Clone this repo: <br>
+    _git clone_ https://github.com/amruta95/MLZoomCamp_Capstone_Project.git
+   
+5. Change to the directory that has the required files: <br>
+     _cd_ MLZoomCamp_Capstone_Project/
+
+6.  Install packages required for this project: <br>
+     _pip install -r requirements.txt_
+
 ## 5. Model Deployment
 
 ## 6. Deploy model as Web Service
