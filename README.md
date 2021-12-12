@@ -12,7 +12,7 @@ This course is free of charge and can be learnt anytime.
  2. Files Description
  3. Virtual Environment and Packages
  4. Deploy model as Web Service
- 5. Cloud Deployment
+ 5. Deploy model on local machine
 
 
 
@@ -44,7 +44,7 @@ Most cardiovascular diseases can be prevented by addressing behavioural risk fac
 - DEATH_EVENT: If the patient deceased during the follow-up period (boolean).
 
 
-## 2. Folders/Files Description
+## 2. Files Description
 - ### Capstone_Project_with_output.ipynb
   This file contains the following sections with their respective outputs: <br>
       - Libraries <br>
@@ -75,12 +75,16 @@ Most cardiovascular diseases can be prevented by addressing behavioural risk fac
   Final model training script.
 - ### predict.py :
   Model prediction API script for local deployment.
-- ### Dockerfile: 
+- ### Dockerfile (inside app_deploy folder): 
   Instructions to build Docker image.
-- ### Heroku : 
-  Instructions to deploy model to cloud.
+- ### app_deploy:
+  Contains all the files for the docker container.
 - ### requirements.txt : 
   Package dependencies and management files.
+- ### Pipfile and Pipfile.lock :
+  Requirements needed for this project are mentioned.
+- ### heart_failure_clinical_records_dataset.csv :
+  This is the dataset used for this project.
   
 
 ## 3. Virtual Environment and Packages
@@ -129,8 +133,12 @@ Please follow the steps mentioned below: <br>
    _docker ps -a_
 
 
+## 5. Deploy Model on local machine
+The model can be deployed locally by that users.
 
+To test the model deployment locally, open a terminal session on your machine, change to the direcotry where the repo is clones.Next,activate the virtual environment as explained in section 3.
 
+Run the following command :
 
-## 5. Cloud Deployment
+_python predict.py_ (the_path_to_file)
 
