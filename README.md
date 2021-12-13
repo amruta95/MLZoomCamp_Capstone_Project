@@ -59,7 +59,7 @@ Most cardiovascular diseases can be prevented by addressing behavioural risk fac
     
   **NOTE:** While uploading the complete notebooks, some figures donot have output due to size issues. So, while testing the script please run each cell in the '_Capstone_Project_without_output.ipynb_' notbebook individually and check out the results.
   
-  I have attached the images of the missed out figures(results)in the folder **_images_**
+  I have also attached the images of the missed out figures(results)in the folder **_images_** (just for reference)
    
 - ### Capstone_Project_without_output.ipynb
   This file contains the following sections without their respective outputs: <br>
