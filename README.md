@@ -141,5 +141,8 @@ Open the jupyter notebook :
 
 _$../Capstone Project/ jupyter notebook_
 
-Next, run the cells one by one and see the output.
+Next, run the cells one by one and see the output
+
+Another option :<br>
+Open two terminals, run predict.py in one and request.py in another terminal.
 
