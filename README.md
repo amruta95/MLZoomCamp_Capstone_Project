@@ -137,7 +137,9 @@ The model can be deployed locally by that users.
 
 To test the model deployment locally, open a terminal session on your machine, change to the direcotry where the repo is clones.Next,activate the virtual environment as explained in section 3.
 
-Run the following command :
+Open the jupyter notebook :
 
-_python predict.py_ (the_path_to_file)
+_$../Capstone Project/ jupyter notebook_
+
+Next, run the cells one by one and see the output.
 
