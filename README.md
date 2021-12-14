@@ -1,4 +1,4 @@
-# ML ZoomCamp Capstone Project
+# Machine Learning ZoomCamp: Capstone Project
 
 Hello guys, this repository contains the work carried out as a part of the Capstone Project for the course Machine Learning ZoomCamp. This course is organized and conducted by Mr. Alexey Grigorev
 
