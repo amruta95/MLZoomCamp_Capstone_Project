@@ -112,7 +112,7 @@ To ensure all scripts work fine and the libraries used during development are th
 6.  Install packages required for this project: <br>
      _pip install -r requirements.txt_
 
-## 4. Deploy model as Web Service to Docker container
+## 4. Deploy model as Web Service to Docker Container
 
 You can deploy the trained model as a web service running inside a docker container on your local machine.
 
@@ -143,7 +143,7 @@ Please follow the steps mentioned below: <br>
    _docker ps -a_
 
 
-## 5. Deploy Model as a Web Service on local machine
+## 5. Deploy Model as a Web Service on Local Machine
 
 The model can be deployed locally by the users.
 To test the model deployment as a web service, please open two separate terminal sessions on your machine and activate the virtual environment as explained in section 3 above.
