@@ -79,7 +79,7 @@ Most cardiovascular diseases can be prevented by addressing behavioural risk fac
   Final model training script.
 - ### predict.py :
   Model prediction API script for local deployment.
-- ### Dockerfile (inside app_deploy folder): 
+- ### Dockerfile : 
   Instructions to build Docker image.
 - ### app_deploy:
   Contains all the files for the docker container.
