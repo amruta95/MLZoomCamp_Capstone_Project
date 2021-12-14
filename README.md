@@ -148,11 +148,14 @@ Please follow the steps mentioned below: <br>
 The model can be deployed locally by the users.
 To test the model deployment as a web service, please open two separate terminal sessions on your machine and activate the virtual environment as explained in section 3 above.
 
-1. From one terminal session, run the following command to host the prediction model as a web service: <br>
+1. Check if you are in the directory, if not use the below command to change directory: <br>
+    _cd_ MLZoomCamp_Capstone_Project/
+   
+2.  From one terminal session, run the following command to host the prediction model as a web service: <br>
 
     _gunicorn --bind 0.0.0.0:9696 predict.py_
 
-2. From other terminal session, change the directory and then execute the following command to make a request to this web service: <br>
+3. From other terminal session, change the directory and then execute the following command to make a request to this web service: <br>
 
     _python request.py_
 
