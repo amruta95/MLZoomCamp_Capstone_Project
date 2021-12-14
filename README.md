@@ -10,8 +10,8 @@ Hello guys, this repository contains the work carried out as a part of the Capst
  1. Problem Description
  2. Files Description
  3. Virtual Environment and Package dependencies
- 4. Deploy model as Web Service to Docker container
- 5. Deploy model as a Web Service on local machine
+ 4. Deploy model as Web Service to Docker Container
+ 5. Deploy model as a Web Service on Local Machine
  6. Steps to train the model 
 
 
