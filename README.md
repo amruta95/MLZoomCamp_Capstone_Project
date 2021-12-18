@@ -167,7 +167,7 @@ To train the model follow the steps mentioned below.
 
 2. Clone the repository using below command: <br>
 
-    _git clone_ https://github.com/nindate/mlzoomcamp-midterm-project.git
+    _git clone_ https://github.com/amruta95/MLZoomCamp_Capstone_Project
 
 3. Check whether you are already in the project directory which you cloned from git. If not change to that directory: <br>
 
